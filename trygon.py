@@ -62,6 +62,3 @@ if choice == '4':
 if choice == '5':
     result = subprocess.run(['git', 'clone', 'https://github.com/isuruwa/T-HYDRA'], capture_output=True, text=True)
     print(result.stdout)
-if choice == '6':
-    result = subprocess.run(['git', 'clone', 'https://github.com/h4ck3r0/Metasploit-termux'], capture_output=True, text=True)
-    print(result.stdout)
