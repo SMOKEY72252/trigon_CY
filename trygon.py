@@ -47,21 +47,21 @@ print('''
 ''')
 choice = input("\033[36msel\033[34mect: ")
 
-if choice == '1': 
-    result = subprocess.run(['git clone https://github.com/cyweb/hammer'], capture_output=True, text=True)
+if choice == '1':
+    result = subprocess.run(['git', 'clone', 'https://github.com/cyweb/hammer'], capture_output=True, text=True)
     print(result.stdout)
-if choice == '2': 
-    result = subprocess.run(['git clone https://github.com/sqlmapproject/sqlmap.git'], capture_output=True, text=True)
+if choice == '2':
+    result = subprocess.run(['git', 'clone', 'https://github.com/sqlmapproject/sqlmap.git'], capture_output=True, text=True)
     print(result.stdout)
-if choice == '3': 
-    result = subprocess.run(['git clone https://github.com/sullo/nikto'], capture_output=True, text=True)
+if choice == '3':
+    result = subprocess.run(['git', 'clone', 'https://github.com/sullo/nikto'], capture_output=True, text=True)
     print(result.stdout)
-if choice == '4': 
-    result = subprocess.run(['pkg install nmap'], capture_output=True, text=True)
+if choice == '4':
+    result = subprocess.run(['pkg', 'install', 'nmap'], capture_output=True, text=True)
     print(result.stdout)
-if choice == '5': 
-    result = subprocess.run(['git clone https://github.com/isuruwa/T-HYDRA'], capture_output=True, text=True)
+if choice == '5':
+    result = subprocess.run(['git', 'clone', 'https://github.com/isuruwa/T-HYDRA'], capture_output=True, text=True)
     print(result.stdout)
-if choice == '6': 
-    result = subprocess.run(['git clone https://github.com/h4ck3r0/Metasploit-termux'], capture_output=True, text=True)
+if choice == '6':
+    result = subprocess.run(['git', 'clone', 'https://github.com/h4ck3r0/Metasploit-termux'], capture_output=True, text=True)
     print(result.stdout)
